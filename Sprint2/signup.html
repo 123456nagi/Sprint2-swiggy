@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/free-swiggy-1613371-1369418.png">
+</head>
+<body background="https://c8.alamy.com/comp/2BH4KM2/a-smartphone-showing-the-swiggy-logo-rests-on-a-yellow-background-along-with-a-keyboard-glasses-pen-and-book-editorial-use-only-2BH4KM2.jpg">
+    <div class="container">
+        <h1>Signup</h1>
+        <form id="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Enter the username">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter the email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="Enter the password">
+            <button type="submit">Signup</button>
+            <p>By creating an account, I accept the Terms & Conditions & Privacy Policy</p>
+        </form>
+        <p id="error-message"></p>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

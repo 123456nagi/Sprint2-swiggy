@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+
+}
+.main .left{
+    margin-top: 77px;
+}
+.main .left nav img{
+    width: 30%;
+}
+.main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left nav .sign{
+    width: 110px;
+    height: 36px;
+    
+    
+    border: none;
+    font-size: 17px;
+}
+.left nav a{
+    color: black;
+    background-color: transparent;
+    border: none;
+    margin-inline: 6px;
+    font-size: 17px;
+}
+.main .main-img{
+    width: 530px;
+}
+.main .left .txt{
+    margin-left: 63px;
+    margin-top: 77px;
+
+}
+.left .txt h1{
+    font-size: 43px;
+}
+.left .txt p{
+    margin-top: 22px;
+    font-size: 22px;
+}
+.left .txt .inp{
+    display: flex;
+    margin-top: 22px;
+}
+.left .txt input{
+    width: 380px;
+    height: 36px;
+    border: 1px solid orangered;
+    border-right: none;
+    padding: 8px;
+    
+}
+.left .txt .inp button{
+    width: 120px;
+    background-color: orangered;
+    border: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(37, 20, 8);
+    text-align: center;
+    color: white;
+    padding: 44px;
+
+}
+.card .crd img{
+    width: 33%;
+}
+.rest {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.rest img{
+    ]width: 32px;
+}
+.rest .txt{
+    margin-top: 84px;
+}
+.rest .txt h1{
+    font-size: 44px;
+}
+.rest .txt p{
+    margin-top: 11px;
+}
+.rest .txt img{
+    margin-top: 22px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 44px;
+}
+.footer .list{
+    margin-inline: 33px;
+}
+.footer .list img{
+    width: 53%;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 11px;
+}
